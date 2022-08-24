@@ -67,7 +67,7 @@
             <tr>
                 <td>First Name</td>
                 <td>
-                    <input type="text" size="25" placeholder="Enter Middle Name..." name="first_name" required>
+                    <input type="text" size="25" placeholder="Enter First Name..." name="first_name" required>
                 </td>
                 <td>Middle Name</td>
                 <td>
@@ -75,7 +75,7 @@
                 </td>
                 <td>Last Name</td>
                 <td>
-                    <input type="text" size="25" placeholder="Enter Middle Name..." name="last_name" required>
+                    <input type="text" size="25" placeholder="Enter Last Name..." name="last_name" required>
                 </td>
             </tr>
             <!-- <tr><td>Father's Name</td>
@@ -370,18 +370,18 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Date of joining</td>
+                    <td>Available Start Date</td>
                     <td>
                         <input type="date" name="date_of_joining" required >
-                    </td>
-                    <td>Time Of Joining</td>
-                    <td>
-                        <input type="time">
                     </td>
                 </tr>
                 <td>Position Sort</td>
                  <td>
                     <input type="text" name="position_sort" required>
+                </td>
+                <td>Desired Pay Range</td>
+                 <td>
+                    <input type="text" name="pay_range" required>
                 </td>
                 <!-- <tr>
                     <td>Perferred Job Location</td>
@@ -413,6 +413,8 @@
                         <input type="radio" name="relocation" value="no">No
                     </td>
                 </tr>
+            </table>
+            <div style="display: flex; justify-content: center; align-items: center; margin-top: 1.5em;">
                 <tr>
                     <td>
                         <input type="checkbox" required>
@@ -421,17 +423,18 @@
                         This is to inform that, All the above mentioned information is correct as per my knowledge.
                     </td>
                 </tr>
+            </div>
+            <div style="display: flex; justify-content: center; align-items:center; margin-top: 1em;">
                 <tr>
-                    <td></td>
                     <td>
-                        <input type="submit" value="submit" class="button">
+                        <input type="submit" value="submit" class="button" style="margin-right: 2em;">
                     </td>
                     <td>
                         <input type="reset" value="reset" class="button">
                     </td>
                     <td></td>
                 </tr>
-            </table>
+            </div>
         </div>
     </form>
 </div>
